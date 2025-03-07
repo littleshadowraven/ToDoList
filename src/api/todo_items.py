@@ -13,11 +13,11 @@ def create_todo():
     return
 
 
-@router.patch("/lists/{list_id}/todos/todo_id")
+@router.patch("/lists/{list_id}/todos/{todo_id}")
 def update_todo():
     return
 
 
-@router.delete("/lists/{list_id}/todos")
+@router.delete("/lists/{list_id}/todos/{todo_id}")
 def delete_todo():
     return
